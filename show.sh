@@ -1,0 +1,5 @@
+echo "Script ka naam \$0 = $0"
+echo "pehli value \$1 = $1"
+echo "doosri value \$2 = $2"
+echo "Kitni Values \$# = $#"
+echo "Saari values \$@ = $@"
