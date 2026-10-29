@@ -14,3 +14,4 @@ done < <(df --output=source,pcent,target \
 (( ALERT == 0 )) && echo "$(date '+%F %T') disks OK"
 exit "$ALERT"
 df -i | tail -n +2
+# risky
