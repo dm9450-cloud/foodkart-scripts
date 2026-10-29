@@ -9,3 +9,4 @@ find "$DIR" -name "*.log" -mtime +1 -print \
   -exec gzip {} \;
 echo "Deleting *.gz older than $DAYS days"
 find "$DIR" -name "*.gz" -mtime +"$DAYS" -print -delete
+# default 7 days
