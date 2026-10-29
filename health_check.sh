@@ -12,3 +12,4 @@ while read -r url; do
 done < urls.txt
 echo "Failed: $FAILED"
 [[ $FAILED -eq 0 ]] || exit 1
+# fix: timeout 5s
