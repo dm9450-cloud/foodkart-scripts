@@ -13,3 +13,4 @@ done < <(df --output=source,pcent,target \
            -x tmpfs -x devtmpfs | tail -n +2)
 (( ALERT == 0 )) && echo "$(date '+%F %T') disks OK"
 exit "$ALERT"
+df -i | tail -n +2
